@@ -259,6 +259,10 @@ footer {
 	justify-content: center;
 }
 
+footer p {
+	text-align: center;
+}
+
 @media (max-width: 1140px) {
 
 	/* General */
