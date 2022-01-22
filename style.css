@@ -143,6 +143,7 @@ section {
 
 #sec01 img {
 	margin-bottom: 20px;
+	max-width: 90%;
 }
 
 #sec01 p {
@@ -238,6 +239,10 @@ section {
 
 #sec03 .column .text-area {
 	padding: 40px;
+}
+
+#sec03 .ttl img {
+	max-width: 90%;
 }
 
 /* Footer */
@@ -358,5 +363,14 @@ footer {
 
 	#sec03 .column {
 		grid-template-columns: 1fr;
+	}
+
+	#sec03 img {
+		max-width: 300px;
+		margin: auto;
+	}
+
+	#sec03 .column .text-area {
+		padding: 40px 0;
 	}
 }
